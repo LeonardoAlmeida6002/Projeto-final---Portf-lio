@@ -1,0 +1,86 @@
+.cabecalho {
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background-color:rgb(233, 179, 97);
+    position: fixed;
+    z-index: 1;
+    color: white;
+}
+
+.navbar {
+    position: fixed;
+    top:0;
+    height:100%;
+    width: 150px;
+    background-color: rgb(160, 143, 127);
+    text-align: center;
+    margin-top: 80px;
+    left: 0;
+    z-index: 0;
+    color: white;
+    font-size: large;
+    
+}
+section:nth-child(1) {
+    padding-top: 70px;
+    width:1199px;
+    height: 500px;
+    margin-left: 142px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: large;
+
+}
+
+section:nth-child(1) p {
+    padding-left: 50px;
+    color: rgb(173, 255, 173);
+
+}
+
+section:nth-child(1) h2 {
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+
+
+section:nth-child(2){
+    position: relative;
+    width:1199px;
+    height: 500px;
+    margin-left: 142px;
+    background-color: rgb(199, 218, 166);
+    color: white;
+    font-size: large;
+
+}
+section:nth-child(3) {
+    width:1199px;
+    height: 500px;
+    margin-left: 142px;
+    background-color: rgb(89, 90, 88);
+    color: white;
+    font-size: large;
+    
+}
+.decorativo {
+    position: absolute;
+    bottom: 10px;
+    left: 1050px;
+    color: white;
+}
+.rodape {
+    background-color: rgb(230, 192, 175);
+    height: 100px;
+    width: 1341px;
+    left:0px;
+    text-align: center;
+    font-size: large;
+    color: white;
+    
+    }
