@@ -1,24 +1,38 @@
 document.addEventListener("DOMContentLoaded", function () {
     const projetos = [
         // Adicionar projetos
+        {
+          titulo: "blafbaffa",
+        descricao: "fjsbajsbfjosajfba",
+        clientes: "jfbfsjabfsabfafjsbaf"
+        }
+
     ];
   
     //buscar os elementos que você quer editar
     //const listaProjetos = document.getElementById("lista-projetos");/
-  
+    const conteudoExibido = document.getElementById("conteudo-exibido")
+    const tituloConteudo = document.getElementById("titulo-conteudo")
+    const descricaoConteudo = document.getElementById("descricao-conteudo")
+    const clientesConteudo = document.getElementById("titulo-conteudo")
+    
   
     projetos.forEach((projeto) => {
+      const li = document.createElement("li");
+      const button = document.createElement("button")
+      button.textContent = projeto.titulo;
+      button.addEventListener("click", function() {
+        conteudoExibido.textContent = projeto.conteudo
+        tituloConteudo.textContent = projeto.titulo;
+        descricaoConteudo.textContent = projeto.descricao;
+        clientesConteudo.textContent = projeto.clientes;
+      })
       //cria um novo li createElement("li")
       //cria um novo botão createElement("button")
   
       //adicionar o titulo do projeto ao botão .textContent
       
-      button.addEventListener("click", function () {
-          //adiciona titulo do projeto ao conteudo do section .textContent
-          //adiciona descrição do projeto ao conteudo section .textContent
-          //adiciona o atributo src com o link da imagem a tag img .setAttribute
-          //adiciona os textos com os clientes no paragrafo p .textContent
-     
+      
         conteudoExibido.style.display = "block"; // Exibe a section
       });
       //
@@ -32,4 +46,4 @@ document.addEventListener("DOMContentLoaded", function () {
         conteudoExibido.style.display = "none";
       }
     };
-  });
+  ;
