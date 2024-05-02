@@ -36,16 +36,8 @@
     ;
 
 }
-.navbar p {
-    padding-bottom: 15px;
-    padding-top: 15px;
 
-}
 
-#cadeira {
-    padding-bottom: 0px;
-    color: white;
-}
 
 button{
     border: 0px solid;
@@ -103,23 +95,33 @@ section:nth-child(1) h2 {
 .email:hover {
     color: rgb(160, 170, 180);
 }
+#linkSobre{
+    margin-left: 50px;
+    color: black;
+
+    transition: color 0.3s;
+}
+#linkSobre:hover {
+    color: rgb(160, 170, 180);
+}
 
 #imagem {
     position: absolute;
     width: 250px;
     border: 2px solid black;
-    margin-left: 65%;
+    margin-left: 55%;
     top: 145px;
     border-radius: 150px;
     
 }
+
 
 /*Seção 2///////////////////////////////////////////////////////////////////////////*/
 
 section:nth-child(2){
     
     width:1199px;
-    height: 500px;
+    height: 170px;
     margin-left: 142px;
     background-color: lightgrey;
     color: white;
@@ -153,6 +155,10 @@ section:nth-child(3) {
     padding-left: 50px;
     
     
+}
+#sobre {
+    margin-left: 50px;
+    color: black;
 }
 
 

@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
           titulo: "Programação Website 1",
         descricao: "Carga horaria: 80 horas",
         clientes: "Nesta cadeira foi trabalhado com HTML, CSS, JavaScript e Json através do VScode"
-        },
+        }
         
         
 
